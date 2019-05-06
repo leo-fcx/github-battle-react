@@ -1,6 +1,4 @@
 FROM node:8
-WORKDIR /usr/src/app
-COPY /usr/src/app ./
 RUN ls -la
 RUN npm install
 RUN npm install serve -g
